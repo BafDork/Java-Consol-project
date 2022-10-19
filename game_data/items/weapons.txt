@@ -1,0 +1,14 @@
+Stick:10:common
+Knife:15:common
+Baton:20:common
+Bow:25:common
+Sword:30:common
+Crossbow:35:common
+Mace:40:rare
+Hammer:45:rare
+Axe:50:rare
+Nagibator:60:rare
+Scythe:70:rare
+Holy Moonlight Sword:80:epic
+Leviathan:90:epic
+Aerondight:100:epic

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+		<head>
+				<meta charset="utf-8" />
+				<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@436;500&display=swap" rel="stylesheet">
+				<link href="css\impress-common.css" rel="stylesheet" />
+				<link href="css\styles.css" rel="stylesheet" />
+		</head>
+		<body class="impress-not-supported">
+			<div class="fallback-message">
+					<p>Этот браузер не поддерживает функциональность необходмую для работы с <b>impress.js</b>.</p>
+					<p>Видно не судьба посмотреть эту богоподобную презентацию :(</p>
+			</div>
+			<div id="matrix">
+				<canvas></canvas>
+			</div>
+			<div id="impress" data-transition-duration="1750">
+				<div id="overview" class="step overview" data-x="0" data-y="0" data-z="0" data-scale="3"></div>
+				<div id="introduction_part_1" class="step overview" data-x="150" data-y="-500" data-z="3000" data-scale="1.3" data-goto-next="step-1">
+					<embed src="static\mem.mp3" hidden="True" autostart="True" loop="False">
+					<div class="introduction_title">
+						<h1>Консольное приложение на <span style="font-family: fantasy; font-size: 70pt; color: #cc3939">Java</span> <span style="font-size: 20pt">(￣ε￣＠)</span></h1>
+						<h4>( ╯° □ °)╯А именно: мини рогалик ノ( º _ ºノ)</h4>
+					</div>
+				</div>
+				<div id="introduction_part_2" class="step" data-x="850" data-y="100" data-z="3000" data-rotate-y="-45" data-scale="1.3">
+					<div class="introduction_additional">
+						<h3>Выполнили: <span style="font-family: comic sans ms; background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5))">DREAM TEAM 3</span></h3>
+						<p id="part1">Мама это что 3d?</p>
+						<p id="part2">Первый слайд надо же хоть как-то выпендриться ¯\_(ツ)_/¯</p>
+					</div>
+				</div>
+				<div id="step-1" class="step overview" data-x="0" data-y="0" data-z="300" data-rotate-z="20"data-goto-prev="introduction_part_1">
+					<embed src="static\music.mp3" hidden="True" autostart="True" loop="True">
+					<div style="margin-top: -50px">
+						<iframe src="static\name.txt" width="1380px" height="680" ></iframe>
+					</div>
+				</div>
+				<div id="step-2" class="step" data-x="0" data-y="0" data-z="200" data-rotate-z="400" data-rotate-order="xyz">
+					<iframe src="static\all parties.txt" width="1480px" height="690px"></iframe>
+				</div>
+				<div id="step-3" class="step" data-x="0" data-y="0" data-z="100" data-rotate-z="780" data-rotate-order="xyz">
+					<div style="margin-top: -40px; margin-left: -60px">
+						<img src="static\problems.jpg" width="700px" height="700px"/>
+					</div>
+				</div>
+				<div id="step-4" class="step" data-x="0" data-y="0" data-z="100" data-rotate-z="1160" data-rotate-order="xyz">
+					<div style="margin-top: -40px; margin-left: -40px">
+						<img src="static\features.jpg" width="700px" height="700px"/>
+					</div>
+				</div>
+				<div id="step-5" class="step" data-x="0" data-y="0" data-z="0" data-rotate-z="1540" data-rotate-order="xyz" data-goto-next="overview">
+					<h1 style="font-family: segoe script; font-size: 35pt; margin-top: 150px">Спасибо за внимание</h1>
+					<p style="font-size: 50pt">(♡˙︶˙♡)                                    ╰(*´︶`*)╯</p>
+				</div>
+			</div>
+			<div id="impress-toolbar"></div>
+			<div id="impress-help"></div>
+			<script src="js/script.js"></script>
+			<script type="text/javascript" src="js/impress.js"></script>
+			<script>impress().init();</script>
+		</body>
+</html>

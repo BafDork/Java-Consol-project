@@ -1,0 +1,9 @@
+Bread:5:common
+Meat:10:common
+Water:20:common
+Weak Potion:30:common
+Blood Vial:40:rare
+Swallow:50:rare
+Magic Weed:60:rare
+Strong Potion:70:epic
+Holy Spirit:100:epic
